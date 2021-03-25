@@ -11,7 +11,7 @@ describe('HybrentWeb', function()
         element(by.id('userName')).sendKeys('Hemant');
         element(by.id('password')).sendKeys('goouser');
         element(by.className('btn btn-lg btn-primary hyb-login-btn')).click();
-        browser.sleep("10000");
+        browser.sleep("8000");
     });
 
 });
